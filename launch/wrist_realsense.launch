@@ -45,7 +45,7 @@ Processing enabled by this node:
   <!-- Camera device specific arguments -->
 
   <arg name="serial_no"           default=""/>
-  <arg name="json_file_path"      default="$(find qut_panda_realsense)/config/realsense.json"/>
+  <arg name="json_file_path"      default="$(find rv_panda_realsense)/config/realsense.json"/>
 
   <arg name="depth_width"         default="640"/>
   <arg name="depth_height"        default="480"/>
@@ -175,7 +175,7 @@ Processing enabled by this node:
     </group>
 
     <!-- Workaround for the autoexposure not being enabled by default https://github.com/intel-ros/realsense/issues/318 -->
-    <node pkg="qut_panda_realsense" type="set_realsense_autoexposure.sh" name="set_realsense_autoexposure" />
+    <node pkg="rv_panda_realsense" type="set_realsense_autoexposure.sh" name="set_realsense_autoexposure" />
 
   </group>
 
