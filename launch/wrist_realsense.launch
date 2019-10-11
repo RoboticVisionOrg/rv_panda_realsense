@@ -175,7 +175,7 @@ Processing enabled by this node:
     </group>
 
     <!-- Workaround for the autoexposure not being enabled by default https://github.com/intel-ros/realsense/issues/318 -->
-    <node pkg="rv_panda_realsense" type="set_realsense_autoexposure.sh" name="set_realsense_autoexposure" />
+    <node pkg="rv_panda_realsense" type="set_realsense_autoexposure" name="set_realsense_autoexposure" />
 
   </group>
 
